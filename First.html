@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hello Beautiful world!!!</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+	{
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+	p {
+	color: grey;
+	text-align: center;
+}
+
+@keyframes shimmer {
+    0% { color: #ffcc00; text-shadow: 0 0 10px #ffcc00; }  /* Yellow (like lightsabers) */
+    25% { color: #ff0000; text-shadow: 0 0 15px #ff0000; } /* Sith Red */
+    50% { color: #00ffcc; text-shadow: 0 0 20px #00ffcc; } /* Jedi Cyan */
+    75% { color: #ff66ff; text-shadow: 0 0 25px #ff66ff; } /* Purple (Mace Windu) */
+    100% { color: #ffcc00; text-shadow: 0 0 10px #ffcc00; } /* Back to Yellow */
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    animation: shimmer 10s infinite alternate, fadeInOut 10s ease-in-out;
+}
+h3 {
+	color: blue;
+	text-align: center;
+}
+
+article {
+	color: green;
+	background-color: yellow;
+	text-align: center;
+}
+
+ul>li {
+	color: red;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+ol li {
+	color: blue;
+}
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+@keyframes bananaChocoShimmer {
+    0% { color: #ffcc00; text-shadow: 0 0 10px #ffcc00; } /* Banana Yellow */
+    50% { color: #4b2c20; text-shadow: 0 0 15px #4b2c20; } /* Dark Chocolate */
+    100% { color: #ffcc00; text-shadow: 0 0 10px #ffcc00; } /* Back to Banana */
+}
+
+.bon-appetit {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    animation: bananaChocoShimmer 5s infinite alternate;
+}
+h4 {
+	color: grey
+	background-color: black;
+}
+header li {
+	list-style: none;
+}
+a:link, a:visited {
+	text-decoration-line: none;
+	background-color: cyan;
+	border-radius: 1.5px solid black;
+	color: black;
+	display: block;
+	width: 150px;
+	text-align: center;
+	margin: 1px;
+}
+a:hover, a:active {
+	background-color: orange;
+	color: white;
+	cursor: pointer;
+}
+header li:nth-child(1) {
+	font-size: 25px;
+}
+header li:nth-child(2) {
+	font-size: 15px;
+} 
+</style>
+    <div class="container">
+</head>
+<header>
+	<p> Follow Me Here: </p>
+	<ul>
+		<li> <a href="/"> Home </a> </li>
+		<li> <a href="https://www.facebook.com/gordonramsay"> Facebook Official Page </a> </li>
+		<li> <a href="https://www.facebook.com/groups/267490890337373/"> Facebook Fanpage </a> </li>
+	</ul>
+</header>
+<body>
+
+<h1> Hello there! </h1>
+<h2> ...................................................................................... </h2>
+<h3> 
+	<article> "Craving something rich, moist, and chocolatey? This easy Choco-Banana Cake combines the sweetness of ripe bananas with deep cocoa flavor for a delicious homemade treat. Perfect for any occasion, it's simple to make and guaranteed to satisfy your sweet tooth!"</article>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm0JwFqOQlAHBW_zoRenb_px8a4Rw2fVV29g&s" alt="Choco-Banana Cake">
+</h3>
+<h2> ...................................................................................... </h2>
+<h4> This Should be in Your shopping list: 
+	<ul>
+		<li> 1 cup flour </li>
+		<li> ½ cup sugar </li>
+		<li> 1 tsp baking soda </li>
+		<li> 2 ripe bananas (mashed) </li>
+		<li> ¼ cup cocoa powder </li>
+		<li> ½ tsp salt </li>
+		<li> ⅓ cup vegetable oil </li>
+		<li> 1 tsp vanilla extract </li>
+		<li> ½ cup milk </li>
+
+	</ul>
+</h4>
+<h2> ...................................................................................... </h2>
+<h4> This is How you Make the Cake: :) </h4>
+<p>
+	<ol>
+		<li> Preheat oven to 175°C (350°F). </li>
+		<li> Mix mashed bananas, sugar, oil, and vanilla </li>
+		<li> Add flour, cocoa, baking soda, and salt. Mix well. </li>
+		<li> Stir in milk until smooth. </li>
+		<li> Pour into a greased baking pan. </li>
+		<li> Bake for 25-30 min. Let cool before serving. </li>
+	</ol>
+</p>
+<div class="bon-appetit">
+	Bon Appétit!
+</div>
+</body>
+</html>
